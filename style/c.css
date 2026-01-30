@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&display=swap');
+
+@font-face{
+    font-family: "vazir";
+    src: url(../fonts/Vazir.ttf);
+}
+
+@font-face{
+    font-family: "Lalezar";
+    src: url(../fonts/Lalezar-Regular.ttf);
+}
+body{
+    font-family:"vazir";
+}
+.lalezar{
+    font-family: "lalezar";
+}
+.shoes{
+    width: 200px;
+    /* border: 1px solid black; */
+}
+.shoes-item{
+    cursor: pointer;
+}
+.header{
+    background: url("/images/header-bg.jpg") center no-repeat;
+    background-size: cover
+       
+}
+
+@media screen and (width>768px) {
+    .position-md-fixed{
+        position: fixed;
+    }
+    
+}
+.arrow{
+    transition: all 0.3s;
+}
+.arrowUp{
+    transition: all 0.3s;
+    transform: rotate(180deg);
+}
+
+.service-box-css{
+    border-bottom:4px solid;
+}
+.border-warning:hover{
+    background-color: rgb(253, 143, 0);
+}
+.border-danger:hover{
+    background-color: rgba(253, 30, 0, 0.849);
+}
+.border-success:hover{
+    background-color: rgb(22, 165, 3);
+}
+.service-box{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.service-box:hover{
+    color: rgb(255, 255, 255);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.card-item{
+    transition: all 0.3s;
+}
+.card-item:hover{
+    transform: scale(1.05);
+}
+footer{
+    background-color: #f2f5fc;
+}
